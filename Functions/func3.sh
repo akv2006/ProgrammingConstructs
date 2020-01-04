@@ -46,7 +46,7 @@ function getReverse() {
 	echo $reversed
 }
 
-function isNumberPalindrome() {
+function areNumbersPalindrome() {
 	num1=$1
 	num2=$2
 	
@@ -65,6 +65,6 @@ read -p "Enter a number: " n
 isPrime $n
 echo and it\'s reverse $(isPrime $(getReverse $n)) 
 
-#retVal=$(isNumberPalindrome 123 322)
+#retVal=$(areNumbersPalindrome 123 322)
 #echo $retVal
 
